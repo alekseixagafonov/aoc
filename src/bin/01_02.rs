@@ -10,7 +10,6 @@ fn zero_hits(dial_before: i32, value: i32, dir: char) -> i32 {
     };
 
     if d == 0 {
-        // стартуем в 0 → считаем только шаги 100, 200, ...
         value / 100
     } else if value < d {
         0
